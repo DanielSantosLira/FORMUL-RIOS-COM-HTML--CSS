@@ -14,16 +14,20 @@ body {
     justify-content: center;
 }
 
-fieldset {
+/*fieldset {
     border: 0;
-}
-fieldset{
+}*/
+.grupo{
+    border: 0;
     float: left;
     margin-right: 1em;
 }
 
 input, select, textarea, button{
     border-radius: 5px;
+}
+textarea{
+    width:26em;
 }
 
 #titulo {
